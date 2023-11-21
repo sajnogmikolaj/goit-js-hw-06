@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,700&display=swap");
+body {
+    font-family: "Montserrat";
+    font-weight: 400;
+
+}
+.our-products-h2{
+    color:black;
+    text-align: center;
+}
+.our-products-container{
+    background-color: #FAFAFA;
+}
+.our-products-choc {
+    width: 335px;
+    height: 364px;
+    padding: 32px 52px 32px 53px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0 auto;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid rgba(17, 17, 17, 0.10);
+    background: #FFF;
+}
+.our-products-choc-img{
+    width: 230px;
+    height: 201px;
+    margin-bottom:8px;
+}
+.our-products-button{
+    border-radius: 100px;
+    border: 1px solid rgba(17, 17, 17, 0.10);
+    background: #FAFAFA;
+    padding: 8px 20px;
+}
+.our-products-choc-text{
+    color:black;
+}
+.our-products-choc-text2{
+    color:black;
+}
+.our-products-svg-container{
+    display: flex;
+    justify-content: center;
+    gap:15px;
+}
+.our-products-choc-div{
+    width: 230px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.our-products-choc-svg-icon{
+    fill: rgba(17, 17, 17, 0.10);
+}
+.our-products-choc2{
+    display: none;
+}
+.our-products-h2-span{
+    color: #FD9222;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.6px;
+        text-transform: uppercase;
+        margin-left:5px;
+}
+.our-products-h2{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.our-products-choc-text{
+    font-size:18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.our-products-choc-text2{
+    color: rgba(17, 17, 17, 0.70);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: -0.24px;
+        text-transform: uppercase;
+}
+
+
+
+.our-products-slider {
+    display: flex;
+    margin: 20px auto 32px;
+    justify-content: center;
+    gap: 13px;
+    list-style: none;
+}
+
+.our-products-slider-item-link {
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    background-color: #1111111a;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        width 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.our-products-slider-item-link:hover,
+.our-products-slider-itemplink:focus {
+    background-color: #FD9222;
+    width: 28px;
+    border-radius: 100px;
+}
