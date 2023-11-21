@@ -29,17 +29,25 @@ body {
     height: 201px;
     margin-bottom:8px;
 }
+.our-products-text-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 .our-products-button{
     border-radius: 100px;
     border: 1px solid rgba(17, 17, 17, 0.10);
     background: #FAFAFA;
     padding: 8px 20px;
+    margin-top:18px;
 }
 .our-products-choc-text{
     color:black;
+    margin:0 auto;
 }
 .our-products-choc-text2{
     color:black;
+    margin:0 auto;
 }
 .our-products-svg-container{
     display: flex;
@@ -90,7 +98,9 @@ body {
 }
 
 
-
+.our-products-slider-img{
+    color:aliceblue;
+}
 .our-products-slider {
     display: flex;
     margin: 20px auto 32px;
@@ -116,4 +126,32 @@ body {
     background-color: #FD9222;
     width: 28px;
     border-radius: 100px;
+}
+
+
+
+
+
+.top-sellers-text{
+    width: 305px;
+    display: flex;
+    text-align: left;
+}
+.top-sellers-img{
+    border-radius: 15px;
+}
+.top-sellers{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top-sellers-button{
+border-radius: 100px;
+    background: #FD9222;
+    padding:12px 28px;
+    border:none;
+    color:#FFF;
+    margin-top:20px;
 }
