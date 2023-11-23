@@ -14,7 +14,6 @@ body {
 .our-products-choc {
     width: 335px;
     height: 364px;
-    padding: 32px 52px 32px 53px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,6 +22,9 @@ body {
     border-radius: 15px;
     border: 1px solid rgba(17, 17, 17, 0.10);
     background: #FFF;
+}
+.our-products-choc2{
+    display: none;
 }
 .our-products-choc-img{
     width: 230px;
@@ -40,6 +42,8 @@ body {
     background: #FAFAFA;
     padding: 8px 20px;
     margin-top:18px;
+    font-size: 14px;
+    font-weight: 600;
 }
 .our-products-choc-text{
     color:black;
@@ -61,6 +65,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.our-products-choc-div2{
+    display: none;
 }
 .our-products-choc-svg-icon{
     fill: rgba(17, 17, 17, 0.10);
@@ -131,9 +138,11 @@ body {
 
 
 
-
+.top-sellers{
+    background-color: #FAFAFA;
+}
 .top-sellers-text{
-    width: 305px;
+    width: 335px;
     display: flex;
     text-align: left;
 }
@@ -154,4 +163,28 @@ border-radius: 100px;
     border:none;
     color:#FFF;
     margin-top:20px;
+}
+.top-sellers-button:hover{
+    background:#fcf1E0;
+    color:#FD9222;
+}
+.top-sellers-h2{
+    text-transform: uppercase;
+}
+.top-sellers-h2-span{
+    color:#FD9222;
+    margin-right:5px;
+}
+
+
+
+/* TABLET  */
+
+@media screen and (min-width:768px){
+    .our-products-choc-div2{
+        display: flex;
+    }
+    .our-products-choc2{
+        display: flex;
+    }
 }
