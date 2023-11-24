@@ -2,11 +2,13 @@
 body {
     font-family: "Montserrat";
     font-weight: 400;
+    background-color: #fafafa;
 
 }
 .our-products-h2{
     color:black;
     text-align: center;
+    background-color: #fafafa;
 }
 .our-products-container{
     background-color: #FAFAFA;
@@ -32,8 +34,6 @@ body {
     margin-bottom:8px;
 }
 .our-products-text-container{
-    display: flex;
-    flex-direction: column;
     text-align: center;
 }
 .our-products-button{
@@ -54,13 +54,12 @@ body {
     margin:0 auto;
 }
 .our-products-svg-container{
-    display: flex;
+    display: none;
     justify-content: center;
     gap:15px;
 }
 .our-products-choc-div{
     width: 230px;
-    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,6 +72,12 @@ body {
     fill: rgba(17, 17, 17, 0.10);
 }
 .our-products-choc2{
+    display: none;
+}
+.our-products-choc3{
+    display: none;
+}
+.our-products-choc4{
     display: none;
 }
 .our-products-h2-span{
@@ -109,7 +114,7 @@ body {
     color:aliceblue;
 }
 .our-products-slider {
-    display: flex;
+    display: none;
     margin: 20px auto 32px;
     justify-content: center;
     gap: 13px;
@@ -136,7 +141,9 @@ body {
 }
 
 
-
+.container{
+    display:none
+}
 
 .top-sellers{
     background-color: #FAFAFA;
@@ -146,8 +153,12 @@ body {
     display: flex;
     text-align: left;
 }
+.top-sellers-text2{
+    display: none;
+}
 .top-sellers-img{
     border-radius: 15px;
+    
 }
 .top-sellers{
     display: flex;
@@ -162,7 +173,10 @@ border-radius: 100px;
     padding:12px 28px;
     border:none;
     color:#FFF;
+    margin:0 auto;
+    display: flex;
     margin-top:20px;
+
 }
 .top-sellers-button:hover{
     background:#fcf1E0;
@@ -176,7 +190,9 @@ border-radius: 100px;
     margin-right:5px;
 }
 
-
+@media screen and (max-width:768px){
+    
+}
 
 /* TABLET  */
 
@@ -186,5 +202,89 @@ border-radius: 100px;
     }
     .our-products-choc2{
         display: flex;
+        border-radius: 15px;
+            border: 1px solid rgba(17, 17, 17, 0.10);
+            background: #FFF;
+            width: 270px;
+            height: 364px;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin:0 auto;
+    }
+    .our-products-container{
+        display: flex;
+    }
+    .our-products-choc{
+        width: 270px;
+        
+    }
+
+
+
+
+    .top-sellers-text{
+        display: none;
+    }
+    .top-sellers-text-div{
+        display: flex;
+            gap: 236px;
+            text-align: left;
+            width: 704px;
+    }
+    .top-sellers-img{
+        width: 344px;
+        height: 100%;
+        margin-right: 16px;
+    }
+    .top-sellers-button{
+        width: 162px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+    }
+    .top-sellers-text2{
+        display: block;
+        width: 306px;
+    }
+}
+/* DESKTOP */
+@media screen and (min-width:1200px){
+    .our-products-choc3{
+        display: flex;
+            border-radius: 15px;
+            border: 1px solid rgba(17, 17, 17, 0.10);
+            background: #FFF;
+            width: 270px;
+            height: 364px;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 0 auto;
+    }
+    .our-products-choc-div3{
+        display: block;
+    }
+    .our-products-container{
+        margin-top:50px;
+    }
+    .top-sellers-text-div{
+        display: flex;
+            gap: 236px;
+            text-align: left;
+            width: 704px;
+    }
+    .top-sellers-text2{
+        display: block;
+        width: 304px;
+    }
+    .top-sellers-hidden{
+        display: flex;
+        border-radius:15px;
     }
 }
