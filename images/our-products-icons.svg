@@ -1,0 +1,25 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-dot" viewBox="0 0 34 32">
+<path d="M17.231 32c8.837 0 16-7.163 16-16s-7.163-16-16-16c-8.837 0-16 7.163-16 16s7.163 16 16 16z"></path>
+</symbol>
+<symbol id="icon-current" viewBox="0 0 71 32">
+<path d="M54.154 0h-36.923c-8.837 0-16 7.163-16 16s7.163 16 16 16h36.923c8.837 0 16-7.163 16-16s-7.163-16-16-16z"></path>
+</symbol>
+</defs>
+</svg>
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-slider" viewBox="0 0 583 32">
+<path fill="#fd9222" style="fill: var(--color1, #fd9222)" d="M54.154 0h-36.923c-8.837 0-16 7.163-16 16s7.163 16 16 16h36.923c8.837 0 16-7.163 16-16s-7.163-16-16-16z"></path>
+<path fill="#111" style="fill: var(--color2, #111)" opacity="0.1" d="M118.154 32c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16c0 8.837 7.163 16 16 16z"></path>
+<path fill="#111" style="fill: var(--color2, #111)" opacity="0.1" d="M182.154 32c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16c0 8.837 7.163 16 16 16z"></path>
+<path fill="#111" style="fill: var(--color2, #111)" opacity="0.1" d="M246.154 32c8.837 0 16-7.163 16-16s-7.163-16-16-16c-8.837 0-16 7.163-16 16s7.163 16 16 16z"></path>
+<path fill="#111" style="fill: var(--color2, #111)" opacity="0.1" d="M310.154 32c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16c0 8.837 7.163 16 16 16z"></path>
+<path fill="#111" style="fill: var(--color2, #111)" opacity="0.1" d="M374.154 32c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16c0 8.837 7.163 16 16 16z"></path>
+<path fill="#111" style="fill: var(--color2, #111)" opacity="0.1" d="M438.154 32c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16c0 8.837 7.163 16 16 16z"></path>
+<path fill="#111" style="fill: var(--color2, #111)" opacity="0.1" d="M502.154 32c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16c0 8.837 7.163 16 16 16z"></path>
+<path fill="#111" style="fill: var(--color2, #111)" opacity="0.1" d="M566.154 32c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16c0 8.837 7.163 16 16 16z"></path>
+</symbol>
+</defs>
+</svg>
